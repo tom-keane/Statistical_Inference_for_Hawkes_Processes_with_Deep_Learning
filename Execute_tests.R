@@ -1,0 +1,7 @@
+library("rstudioapi")
+setwd(dirname(getActiveDocumentContext()$path))
+source('Test_of_effect_of_delta.R')
+source('Test_of_effect_of_activity.R')
+source('Test_of_effect_of_beta.R')
+source('Test_of_effect_of_eta.R')
+source("Comparison_of_methods.R")
